@@ -1,0 +1,21 @@
+.schedule-item
+{
+    margin: 10px auto;
+    width: 370px;
+
+}
+
+.schedule-item__image
+{
+    width: 163px;
+}
+
+.schedule-item__time
+{
+    font-size: 40px;
+}
+
+.schedule-item__title
+{
+    text-transform: uppercase;
+}

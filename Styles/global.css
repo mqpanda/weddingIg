@@ -1,0 +1,110 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Erotica scriptC One';
+    src: url('../Fonts/Erotica scriptC One/Erotica scriptC One.ttf'); /* IE 9 Compatibility Mode */
+}
+
+.container
+{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, p{
+    padding: 0;
+    margin: 0;
+}
+
+h5
+{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 34px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h4
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-family: 'Cormorant Infant', serif;
+}
+
+h3
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+}
+
+h2
+{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 76px;
+    text-align: center;
+    font-family: 'Erotica scriptC One', serif;
+    line-height: 80px;
+}
+
+h1
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    text-align: center;
+    font-family: 'Erotica scriptC One', serif;
+    line-height: 80px;
+}
+
+p
+{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+span
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.gray
+{
+    background-color: #F6F6F6;
+}
+
+.stripe__item {
+    margin: 30px auto;
+    width: 1px;
+    height: 90px;
+    background-color: #000; /* Цвет полосы */
+}
+
+.dot
+{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+label
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}

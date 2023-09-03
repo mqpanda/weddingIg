@@ -1,0 +1,33 @@
+.place
+{
+    padding-top: 75px;
+}
+
+.place__question
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.place__overview
+{
+    margin: 10px auto;
+    width: 600px;
+}
+
+.place__address
+{
+    margin: 0 auto;
+    width: 550px;
+}
+
+.place__map
+{
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.place__dot
+{
+    margin: 15px 0;
+}

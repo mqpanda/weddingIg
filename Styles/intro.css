@@ -1,0 +1,38 @@
+.intro
+{
+    padding-bottom: 75px;
+}
+
+.intro__names
+{
+
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+}
+
+.intro__image
+{
+    width: 400px;
+}
+
+.intro__title
+{
+    padding-bottom: 20px;
+}
+
+.intro__names-first
+{
+    text-align: left;
+}
+
+.intro__names-third
+{
+    text-align: right;
+}
+
+.intro__timer
+{
+    margin-top: 70px;
+}

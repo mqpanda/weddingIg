@@ -26,4 +26,9 @@
     {
         width: 120px;
     }
+
+    .schedule-item__time
+    {
+        font-size: 30px;
+    }
 }

@@ -37,6 +37,19 @@
     margin: 15px 0;
 }
 
+@media (max-width: 750px)
+{
+
+    .place__image
+    {
+        width: 90%;
+    }
+    .map
+    {
+        width: 90%;
+    }
+}
+
 @media (max-width: 425px) {
     .place__image
     {
@@ -60,6 +73,11 @@
     {
         width: 88%;
 
+    }
+
+    .place__dot
+    {
+        font-size: 8px;
     }
 
 }

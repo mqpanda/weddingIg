@@ -122,4 +122,46 @@ label
     .stripe__item {
         height: 70px;
     }
+
+    h5
+    {
+
+        font-size: 24px;
+    }
+
+    h4
+    {
+        font-size: 24px;
+    }
+
+    h3
+    {
+        font-size: 28px;
+    }
+
+    h2
+    {
+        font-size: 40px;
+    }
+
+    h1
+    {
+        font-size: 110px;
+    }
+
+    p
+    {
+        font-size: 18px;
+
+    }
+
+    label
+    {
+        font-size: 16px;
+    }
+
+    .dot
+    {
+        font-size: 10px;
+    }
 }

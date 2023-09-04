@@ -8,7 +8,7 @@ $presence = $_POST['for223m'];
 $dop = $_POST['d321op'];
 
 $token = "6271125696:AAF5jsdq1pengjYvfzw_LEqWLHboilT2BZ0";
-$chat_id = "711746679";
+$chat_id = "-994398559";
 $arr = array(
   'Кто ответил:' => $name,
   'Присутствие: ' => $presence,

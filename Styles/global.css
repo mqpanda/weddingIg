@@ -118,15 +118,17 @@ label
 .sub__button
 {
     display: flex;
-
     margin-top: 30px;
     width: 200px;
     height: 40px;
     align-items: center;
     justify-content: center;
     font-family: 'Cormorant Garamond', serif;
-
+    background-color: #F6F6F6; /* Цвет фона кнопки */
+    color: #000000; /* Цвет текста на кнопке */
+    border: 2px solid #000000; /* Цвет рамки кнопки */
 }
+
 
 @media (max-width: 425px) {
     body{

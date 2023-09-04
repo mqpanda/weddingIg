@@ -6,7 +6,7 @@
 .place__question
 {
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .place__image
@@ -58,26 +58,34 @@
 
     .place__overview
     {
+        max-width: 350px;
 
-        margin-right: 10px;
-        margin-left: 10px;
+        margin: 10px auto;
 
     }
 
     .place__address
     {
-        margin: 0 10px;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .place__map
+    {
+        margin-top: 9px;
     }
 
     .map
     {
-        width: 88%;
+        width: 90%;
 
     }
 
     .place__dot
     {
         font-size: 8px;
+        margin: 10px 0 3px 0;
     }
+
 
 }

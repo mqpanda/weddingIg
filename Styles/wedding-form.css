@@ -113,7 +113,10 @@ textarea
 }
 
 @media (max-width: 425px) {
+    .wedding-form__leftside
+    {
 
+    }
 
     .wedding-form__photo {
         width: 100%;
@@ -123,17 +126,36 @@ textarea
 
     .wedding-form__rightside {
         max-width: 360px;
+        padding: 0;
+
+    }
+
+    .wedding-form__leftside {
+        max-height: 530px;
 
     }
 
     .wedding-form__comment
     {
         font-size: 20px;
+        padding-top: 20px;
+        margin-bottom: 0;
     }
 
     .wedding-form__time
     {
+        padding-top: 4px;
         font-size: 18px;
+    }
+
+    .wedding-form__names
+    {
+        min-width: 345px;
+    }
+
+    .wedding-form__pretext
+    {
+
     }
 
 

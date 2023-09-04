@@ -8,6 +8,11 @@
     src: url('../Fonts/CormorantGaramond-Regular.ttf'); /* IE 9 Compatibility Mode */
 }
 
+@font-face {
+    font-family: 'Didot';
+    src: url('../Fonts/didot_bold.otf'); /* IE 9 Compatibility Mode */
+}
+
 
 .countdown {
     display: flex;
@@ -35,7 +40,7 @@
 
 .number
 {
-    font-family: 'Cinzel Decorative';
+    font-family: 'Didot', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
@@ -45,10 +50,18 @@
 
 .subtext
 {
-    font-family: 'Cormorant Garamond';
+    font-family: 'Cormorant Garamond', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 20px;
     text-align: center;
+}
+
+@media (max-width: 425px) {
+    .subtext
+    {
+        font-size: 18px;
+        font-weight: 300;
+    }
 }

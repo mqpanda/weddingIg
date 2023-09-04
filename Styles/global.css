@@ -127,12 +127,13 @@ label
 
     .stripe__item {
         height: 70px;
+        margin: 16px auto 8px auto;
     }
 
     h5
     {
 
-        font-size: 24px;
+        font-size: 20px;
     }
 
     h4
@@ -171,5 +172,8 @@ label
         font-size: 10px;
     }
 
-
+    .sec_stripe
+    {
+        margin-bottom: 16px;
+    }
 }

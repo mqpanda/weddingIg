@@ -4,9 +4,19 @@
     margin: 0 auto;
 }
 
+.details__title
+{
+    padding-bottom: 30px;
+}
+
 @media (max-width: 425px) {
    .details__text
    {
-       margin: 0 20px;
+       margin: 0 20px 0 20px;
    }
+    .details__title
+    {
+        padding-bottom: 10px;
+    }
 }
+

@@ -1,7 +1,7 @@
 body{
     box-sizing: border-box;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -26,7 +26,7 @@ h5
 {
     font-style: italic;
     font-weight: 300;
-    font-size: 34px;
+    font-size: 30px;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -34,7 +34,7 @@ h4
 {
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 30px;
     font-family: 'Cormorant Infant', serif;
 }
 
@@ -42,7 +42,7 @@ h3
 {
     font-style: normal;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 35px;
     font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ h2
 {
     font-style: normal;
     font-weight: 100;
-    font-size: 76px;
+    font-size: 56px;
     text-align: center;
     font-family: 'Erotica scriptC One', serif;
     line-height: 80px;
@@ -71,7 +71,7 @@ p
 {
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -107,4 +107,19 @@ label
     font-weight: 400;
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
+}
+
+@media (max-width: 425px) {
+    body{
+        padding-top: 30px;
+    }
+
+    h2
+    {
+        font-size: 40px;
+    }
+
+    .stripe__item {
+        height: 70px;
+    }
 }

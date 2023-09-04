@@ -1,6 +1,6 @@
 .place
 {
-    padding-top: 75px;
+    padding-top: 35px;
 }
 
 .place__question
@@ -9,16 +9,21 @@
     margin-bottom: 20px;
 }
 
+.place__image
+{
+    max-width: 709px;
+}
+
 .place__overview
 {
     margin: 10px auto;
-    width: 600px;
+    max-width: 600px;
 }
 
 .place__address
 {
     margin: 0 auto;
-    width: 550px;
+    max-width: 435px;
 }
 
 .place__map
@@ -30,4 +35,31 @@
 .place__dot
 {
     margin: 15px 0;
+}
+
+@media (max-width: 425px) {
+    .place__image
+    {
+        width: 90%;
+    }
+
+    .place__overview
+    {
+
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+
+    .place__address
+    {
+        margin: 0 10px;
+    }
+
+    .map
+    {
+        width: 88%;
+
+    }
+
 }

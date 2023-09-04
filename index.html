@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>01.10.2023</title>
-    <link rel="stylesheet" href="/Styles/global.css">
-    <link rel="stylesheet" href="/Styles/countdown.css">
-    <link rel="stylesheet" href="/Styles/intro.css">
-    <link rel="stylesheet" href="/Styles/data.css">
-    <link rel="stylesheet" href="/Styles/schedule.css">
-    <link rel="stylesheet" href="/Styles/place.css">
-    <link rel="stylesheet" href="/Styles/details.css">
-    <link rel="stylesheet" href="/Styles/wedding-form.css">
+    <link rel="stylesheet" href="./Styles/global.css">
+    <link rel="stylesheet" href="./Styles/countdown.css">
+    <link rel="stylesheet" href="./Styles/intro.css">
+    <link rel="stylesheet" href="./Styles/data.css">
+    <link rel="stylesheet" href="./Styles/schedule.css">
+    <link rel="stylesheet" href="./Styles/place.css">
+    <link rel="stylesheet" href="./Styles/details.css">
+    <link rel="stylesheet" href="./Styles/wedding-form.css">
+    <link rel="stylesheet" href="./Styles/media.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,11 +23,12 @@
         <div class="intro">
             <div class="container">
                 <h2 class="intro__title">Мы женимся!</h2>
-                <img class="intro__image" src="/Resourses/Images/photo_2023-08-28_15-50-16%202.png" alt="wedding-photo">
+                <img class="intro__image" src="./Resourses/Images/photo_2023-08-28_15-50-16%202.png" alt="wedding-photo">
                 <div class="intro__names">
-                    <h1 class="intro__names-first">Игорь</h1>
-                    <h1>&</h1>
-                    <h1 class="intro__names-third">Яна</h1>
+<!--                    <h1 class="intro__names-first">Игорь</h1>-->
+<!--                    <h1 class="intro__and">&</h1>-->
+<!--                    <h1 class="intro__names-third">Яна</h1>-->
+                    <img class="intro__svg" src="./Resourses/Images/names.png" alt="names">
                 </div>
                 <div class="intro__timer">
                     <p>До свадьбы осталось:</p>
@@ -59,10 +61,10 @@
             <div class="container">
                 <h5 class="data__title">Мы станем семьёй!</h5>
                 <h4 class="data__time">1 ОКТЯБРЯ 2023</h4>
-                <p class="data__text">Мы верим, что этот день станет красивым началом <br>
+                <p class="data__text">Мы верим, что этот день станет красивым началом
                     нашей семейной жизни.<br>
                     Будем очень рады, если в этот день, Вы сможете
-                    <br>присутствовать на нашем празднике.</p>
+                    присутствовать на нашем празднике.</p>
 
             </div>
         </div>
@@ -72,19 +74,19 @@
             <div class="stripe__item"></div>
             <h3 class="title">План дня</h3>
             <div class="schedule-item">
-                <img src="/Resourses/Images/5.png" class="schedule-item__image" alt="item-image">
+                <img src="./Resourses/Images/5.png" class="schedule-item__image" alt="item-image">
                 <p class="schedule-item__time">15:30</p>
                 <div class="dot">&#8226;</div>
                 <p class="schedule-item__title">Сбор гостей</p>
             </div>
             <div class="schedule-item">
-                <img src="/Resourses/Images/4.png" class="schedule-item__image" alt="item-image">
+                <img src="./Resourses/Images/4.png" class="schedule-item__image" alt="item-image">
                 <p class="schedule-item__time">16:00</p>
                 <div class="dot">&#8226;</div>
                 <p class="schedule-item__title">Церемония бракосочетаниях</p>
             </div>
             <div class="schedule-item">
-                <img src="/Resourses/Images/6.png" class="schedule-item__image" alt="item-image">
+                <img src="./Resourses/Images/6.png" class="schedule-item__image" alt="item-image">
                 <p class="schedule-item__time">17:00</p>
                 <div class="dot">&#8226;</div>
                 <p class="schedule-item__title">Праздничный <br>ужин</p>
@@ -99,13 +101,13 @@
                 <h5 class="place__question">Где пройдёт мероприятие?</h5>
                 <p class="place__overview">Торжественная регестрация нашего брака
                     пройдет в атмосферной усадьбе</p>
-                <img class="place__image" src="/Resourses/Images/place.png" alt="">
+                <img class="place__image" src="./Resourses/Images/place.png" alt="">
                 <p class="place__address">Она находится по адресу: Гродненский р-н,
                     д. Софиево, 3</p>
                 <h5 class="place__question">Как добраться?</h5>
                 <p class="place__overview">Эта карта поможет Вам добраться до места
                     проведения мероприятия.</p>
-                <div class="place__map" style="position:relative;overflow:hidden"><a href="https://yandex.by/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.by/maps/29634/grodno-district/house/ZkoYcAdgTEYHQFtpfXtxeHhmYQ==/?ll=23.605582%2C53.707819&utm_medium=mapframe&utm_source=maps&z=16.09" style="color:#eee;font-size:12px;position:absolute;top:14px;">Деревня Софиёво, 3 — Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/?ll=23.605582%2C53.707819&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozNTg5Nzc0OTk4EnjQkdC10LvQsNGA0YPRgdGMLCDQk9GA0L7QtNC30LXQvdGB0LrRliDRgNCw0ZHQvSwg0J_QsNC00LvQsNCx0LXQvdGB0LrRliDRgdC10LvRjNGB0LDQstC10YIsINCy0ZHRgdC60LAg0KHQsNGE0ZbRkdCy0LAsIDMiCg3jzbxBFXzWVkI%2C&z=16.09" width="705" height="433" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+                <div class="place__map" style="position:relative;overflow:hidden"><a href="https://yandex.by/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.by/maps/29634/grodno-district/house/ZkoYcAdgTEYHQFtpfXtxeHhmYQ==/?ll=23.605582%2C53.707819&utm_medium=mapframe&utm_source=maps&z=16.09" style="color:#eee;font-size:12px;position:absolute;top:14px;">Деревня Софиёво, 3 — Яндекс Карты</a><iframe class="map" src="https://yandex.by/map-widget/v1/?ll=23.605582%2C53.707819&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozNTg5Nzc0OTk4EnjQkdC10LvQsNGA0YPRgdGMLCDQk9GA0L7QtNC30LXQvdGB0LrRliDRgNCw0ZHQvSwg0J_QsNC00LvQsNCx0LXQvdGB0LrRliDRgdC10LvRjNGB0LDQstC10YIsINCy0ZHRgdC60LAg0KHQsNGE0ZbRkdCy0LAsIDMiCg3jzbxBFXzWVkI%2C&z=16.09" width="705" height="433" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
                 <!--Карта-->
             </div>
         </div>
@@ -131,9 +133,9 @@
         </div>
 
         <div class="wedding-form gray">
-        <div class="wedding-form__width ">
+            <div class="wedding-form__width ">
                 <div class="wedding-form__leftside">
-                    <img class="wedding-form__photo" src="/Resourses/Images/form.png" alt="photo">
+                    <img class="wedding-form__photo" src="./Resourses/Images/form.png" alt="photo">
                 </div>
                 <div class="wedding-form__rightside">
                     <form class="wedding-form__form" action="../telegram.php" method="POST">
@@ -172,6 +174,6 @@
             </div>
         </div>
     </div>
-
+<script src="script.js"></script>
 </body>
 </html>

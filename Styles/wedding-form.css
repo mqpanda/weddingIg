@@ -1,11 +1,15 @@
+
+
 .wedding-form__width
 {
     padding-top: 50px;
     display: flex;
     justify-content: space-around;
-    width: 870px;
+    max-width: 870px;
     margin: 0 auto;
     padding-bottom: 300px;
+
+
 }
 
 .wedding-form__form
@@ -41,7 +45,8 @@
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    width: 400px;
+    max-width: 400px;
+    min-width: 370px;
     border: 0;
     outline:none;
     color: rgb(61, 61, 61); /* Цвет текста */
@@ -84,4 +89,61 @@ textarea
 .wedding-form__photo
 {
     margin-left: 50px;
+}
+
+@media (max-width: 425px) {
+    .wedding-form__width {
+        flex-direction: column; /* Изменить направление флекс-контейнера на вертикальное */
+        align-items: center; /* Выравнивание по центру */
+    }
+
+    .wedding-form__photo {
+        margin-left: 0;
+        padding-bottom: 30px;
+    }
+
+    .wedding-form__rightside {
+        max-width: 370px;
+
+    }
+
+
+}
+
+@media (max-width: 375px) {
+
+    .wedding-form__rightside {
+        max-width: 350px;
+
+    }
+
+    .wedding-form__names
+    {
+        min-width: 345px;
+    }
+
+    .wedding-form__photo {
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width: 340px) {
+
+    .wedding-form__rightside {
+        max-width: 280px;
+
+    }
+
+    .wedding-form__names
+    {
+        min-width: 275px;
+    }
+
+    .wedding-form__photo {
+        width: 90%;
+    }
+
+
 }

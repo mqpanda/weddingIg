@@ -5,10 +5,8 @@
 
 .intro__names
 {
-
-    width: 480px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 30px;
 
 }
 
@@ -19,7 +17,7 @@
 
 .intro__title
 {
-    padding-bottom: 20px;
+    padding-bottom: 0;
 }
 
 .intro__names-first
@@ -35,4 +33,55 @@
 .intro__timer
 {
     margin-top: 70px;
+}
+
+.intro__svg
+{
+    width: 400px;
+}
+
+
+
+@media (max-width: 425px)
+{
+    .intro__image
+    {
+        width: 300px;
+    }
+
+    .intro__svg
+    {
+        width: 300px;
+    }
+
+    .number
+    {
+        font-size: 36px;
+        height: 70px;
+    }
+
+    .subtext
+    {
+        font-size: 20px;
+    }
+
+    .stripe
+    {
+        height: 66px;
+    }
+
+    .countdown-column
+    {
+        width: 70px;
+    }
+
+    .intro__timer
+    {
+        margin-top: 30px;
+    }
+
+    .intro
+    {
+        padding-bottom: 30px;
+    }
 }

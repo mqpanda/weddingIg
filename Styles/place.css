@@ -78,6 +78,7 @@
     .place__dot
     {
         font-size: 8px;
+        margin: 5px 0;
     }
 
 }

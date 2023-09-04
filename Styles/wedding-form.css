@@ -151,6 +151,7 @@ textarea
     .wedding-form__names
     {
         min-width: 345px;
+        font-family: 'Cormorant Garamond', serif;
     }
 
     .wedding-form__pretext
@@ -158,6 +159,10 @@ textarea
 
     }
 
+    .form-control
+    {
+        font-family: 'Cormorant Garamond', serif;
+    }
 
 }
 

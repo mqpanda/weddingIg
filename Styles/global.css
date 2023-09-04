@@ -198,3 +198,31 @@ label
     }
 }
 
+.form-check input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px; /* Ширина радиокнопки */
+    height: 16px; /* Высота радиокнопки */
+    border: 2px solid black; /* Цвет радиокнопки в невыбранном состоянии */
+    border-radius: 50%; /* Скругление углов для создания круглой формы */
+    outline: none; /* Убрать контур фокуса (при клике) */
+    position: relative; /* Устанавливаем относительное позиционирование */
+}
+
+.form-check input[type="radio"]::before {
+    content: "";
+    width: 6px; /* Диаметр точки */
+    height: 6px; /* Диаметр точки */
+    background-color: black; /* Цвет точки */
+    border-radius: 50%; /* Скругление углов для создания круглой точки */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 50%; /* Перемещаем точку к вертикальному центру */
+    left: 50%; /* Перемещаем точку к горизонтальному центру */
+    transform: translate(-50%, -50%); /* Центрируем точку относительно радиокнопки */
+    opacity: 0; /* Скрываем точку по умолчанию */
+}
+
+.form-check input[type="radio"]:checked::before {
+    opacity: 1; /* Показываем точку при выбранной радиокнопке */
+}

@@ -1,3 +1,13 @@
+.intro-title {
+    padding-bottom: 20px;
+}
+
+
+.intro-title__photo
+{
+    width: 300px;
+}
+
 .intro
 {
     padding-bottom: 75px;
@@ -44,6 +54,12 @@
 
 @media (max-width: 425px)
 {
+
+    .intro-title__photo
+    {
+        width: 240px;
+    }
+
     .intro__image
     {
         width: 300px;

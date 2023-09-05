@@ -90,3 +90,10 @@
 
 
 }
+
+
+@media (max-width: 375px)
+.place__overview {
+    max-width: 301px;
+
+}

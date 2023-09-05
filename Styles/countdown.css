@@ -64,4 +64,8 @@
         font-size: 18px;
         font-weight: 300;
     }
+
+    .countdown-column {
+        width: 60px;
+    }
 }

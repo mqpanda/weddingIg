@@ -17,11 +17,17 @@
     text-align: left;
 }
 
+.wedding-form__comment:first-child
+{
+    margin-top: 0;
+}
+
 .wedding-form__comment
 {
+    margin-top: 20px;
     font-size: 25px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+
 }
 
 .wedding-form__time
@@ -76,18 +82,19 @@
 
 .wedding-form__label
 {
-    padding: 10px 0 20px 0;
+    padding: 30px 0 10px 0;
 }
 
 textarea
 {
-    min-height: 93px;
+    min-height: 118px;
     background-color: #F6F6F6;
     resize: none;
 }
 
 .wedding-form__photo
 {
+    margin-top: 5px;
     margin-left: 50px;
 }
 
